@@ -17,6 +17,7 @@ public class MainCarro {
         c1.acelerar();
         c1.acelerar();
         c1.frenar();
+        c1.frenar();
 
         System.out.println("La potencia del carro es " + c1.potencia + " y la velocidad es " + c1.velocidad);
     }
