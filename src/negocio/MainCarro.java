@@ -5,6 +5,7 @@ public class MainCarro {
         Carro c1 = new Carro();
         Carro c2 = new Carro();
         Carro c3 = new Carro();
+        Carro c4 = new Carro();
 
         c1.potencia = 2;
         c1.velocidad = 60;
