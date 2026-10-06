@@ -18,6 +18,19 @@ public class Carro {
     public void setVelocidad(double velocidad){
         this.velocidad=velocidad;
     }
+    /*
+    metodo para sacar informacion
+    get()
+    siempre retorna valor
+    el tipo de retorno generalmente es del mismo tipo de atributo
+     */
+
+    public int getPotencia(){
+        return potencia;
+    }
+    public double getVelocidad(){
+        return velocidad;
+    }
     public void acelerar(){
         velocidad += potencia;
     }
