@@ -4,7 +4,25 @@ public class Carro {
     private int potencia;
     private double velocidad;
 
-    /*
+    //atributo de clase
+    private static int numCarros = 0;
+
+    public Carro(int potencia, double velocidad){
+        /*this.potencia = potencia;
+        this.velocidad = velocidad;
+         */
+
+        // Si se validan datos llamo a los set
+        setVelocidad(velocidad);
+        setPotencia(potencia);
+        numCarros++;
+    }
+
+    public Carro() {
+        numCarros++;
+    }
+
+      /*
     métodos para ingresar informacion
     set()
     "siempre" el tipo de retorno es void
